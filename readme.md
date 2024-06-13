@@ -31,6 +31,7 @@ and a midi echo (read from MIDI IN and write that to MIDI OUT
 MIDI echo
 # ++++++++++++++ program starts here ++++++++++++ from machine import Pin,UART
 import time
+
 uart1 = UART(0, baudrate=31250, tx=Pin(0), rx=Pin(1)) uart2 = UART(1, baudrate=31250, tx=Pin(4), rx=Pin(5)) uart1.init(bits=8, parity=None, stop=1)
 
 led = Pin("LED", Pin.OUT)
