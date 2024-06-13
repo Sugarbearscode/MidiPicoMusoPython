@@ -1,6 +1,5 @@
-If you want a Midi to CV convert then you can worse than this https://midimuso.co.uk/index.php/product/cv-12-full-kit/ you will have to build it yourself though. 
 
-Example code for sending midi notes 
+Example code for sending midi notes on the raspberry pi pico. Use Thonney and copy the script across over USB. 
 
 Ascending Notes
 # ++++++++++++++ program starts here ++++++++++++ from machine import Pin,UART
